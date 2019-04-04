@@ -8,7 +8,7 @@ header {
     font-size: 100%;
     background: #232621 url("images/layla-logo.jpg") no-repeat top right;
     background-size: 10%;
-    padding: .5rem .25rem;
+    padding: .5em .25em;
 }
 a {text-decoration: none}
 
@@ -24,7 +24,7 @@ li a {
     border-bottom: .063em solid black;
     text-align: left;
     background-color: honeydew
-    text-indent: 3rem;
+    text-indent: 3em;
 }
 li a.a1 {
     background-color: lightpink;
@@ -32,18 +32,18 @@ li a.a1 {
     text-indent: 0%;
 }
 li a.a2 {
-    text-indent: 1.5rem;
+    text-indent: 1.5em;
 }
 
 h1.emph {
-    font-size: 4.5rem;
+    font-size: 4.5em;
     color: honeydew;
     text-shadow: .063em .063em #232621;
     margin-left: 10%;
 }
 
 #winenav {
-    top: 15rem;
+    top: 15em;
     left: 0;
     position: fixed;
     width: 25%;
