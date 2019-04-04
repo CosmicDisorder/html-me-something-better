@@ -2,13 +2,14 @@ body {
     font-size: 100%;
     font-family: "Raleway";
     right: 0;
-    width: 70%; 
+    width: 75%; 
 }
 header {
     font-size: 100%;
     background: #232621 url("images/layla-logo.jpg") no-repeat top right;
     background-size: 10%;
-    padding: .5em .25em;
+    padding: .25em .125em;
+    max-width: fit-content;
 }
 a {text-decoration: none}
 
@@ -36,7 +37,7 @@ li a.a2 {
 }
 
 h1.emph {
-    font-size: 4.5em;
+    font-size: 3.5em;
     color: honeydew;
     text-shadow: .063em .063em #232621;
     margin-left: 10%;
@@ -46,5 +47,5 @@ h1.emph {
     top: 15em;
     left: 0;
     position: fixed;
-    width: 25%;
+    width: 20%;
 }
