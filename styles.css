@@ -1,20 +1,50 @@
 body {
-    font-family: "Raleway";    
+    font-size: 100%;
+    font-family: "Raleway";
+    right: 0;
+    width: 70%; 
 }
 header {
+    font-size: 100%;
     background: #232621 url("images/layla-logo.jpg") no-repeat top right;
-    background-size: 10em;
-    padding: 2em 1em;
+    background-size: 10%;
+    padding: .5rem .25rem;
+}
+a {text-decoration: none}
+
+ul {
+    list-style-type: none;
+    border: .063em solid black;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    border-bottom: .063em solid black;
+    text-align: left;
+    background-color: honeydew
+    text-indent: 3rem;
+}
+li a.a1 {
+    background-color: lightpink;
+    border: .063em solid black;
+    text-indent: 0%;
+}
+li a.a2 {
+    text-indent: 1.5rem;
 }
 
 h1.emph {
-    font-size: 3.5em;
+    font-size: 4.5rem;
     color: honeydew;
     text-shadow: .063em .063em #232621;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
-#wine_nav {
-    margin-top: 22em;
-    
+#winenav {
+    top: 15rem;
+    left: 0;
+    position: fixed;
+    width: 25%;
 }
