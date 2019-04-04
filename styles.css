@@ -1,0 +1,20 @@
+body {
+    font-family: "Raleway";    
+}
+header {
+    background: #232621 url("images/layla-logo.jpg") no-repeat top right;
+    background-size: 10em;
+    padding: 2em 1em;
+}
+
+h1.emph {
+    font-size: 3.5em;
+    color: honeydew;
+    text-shadow: .063em .063em #232621;
+    margin-left: 20%;
+}
+
+#wine_nav {
+    margin-top: 22em;
+    
+}
